@@ -25,12 +25,12 @@ orbitControls.addEventListener("change", renderer.domElement);
 //						TEXTURES
 let materials = [];
 
-const posz = new THREE.TextureLoader().load("/textures/posz.jpg");
-const negz = new THREE.TextureLoader().load("/textures/negz.jpg");
-const posy = new THREE.TextureLoader().load("/textures/posy.jpg");
-const negy = new THREE.TextureLoader().load("/textures/negy.jpg");
-const posx = new THREE.TextureLoader().load("/textures/posx.jpg");
-const negx = new THREE.TextureLoader().load("/textures/negx.jpg");
+const posz = new THREE.TextureLoader().load("./textures/posz.jpg");
+const negz = new THREE.TextureLoader().load("./textures/negz.jpg");
+const posy = new THREE.TextureLoader().load("./textures/posy.jpg");
+const negy = new THREE.TextureLoader().load("./textures/negy.jpg");
+const posx = new THREE.TextureLoader().load("./textures/posx.jpg");
+const negx = new THREE.TextureLoader().load("./textures/negx.jpg");
 materials.push(new THREE.MeshBasicMaterial({ map: posx }));
 materials.push(new THREE.MeshBasicMaterial({ map: negx }));
 
